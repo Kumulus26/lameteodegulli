@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/toobo.jpeg);
+}
+
+.box-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+#city {
+    background-color: rgba(41, 128, 185, 0.8);
+}
+
+#temp {
+    background-color: rgba(43, 78, 101, 0.8);
+}
+
+#humidity {
+    background-color: rgba(52, 152, 219, 0.8);
+}
+
+#wind {
+    background-color: rgba(143, 146, 154, 0.8);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button[type="submit"] {
+    align-self: center;
+}
