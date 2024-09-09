@@ -1,4 +1,4 @@
-const APIKEY = '21266443f7424473bb985ce4332b14a6';
+const APIKEY = 'APIKEY';
 
 let apiCall = function (city) {
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric&lang={fr}`;
